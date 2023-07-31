@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "mononoki NF";
+  background: linear-gradient(135deg, #ffc857, #ff845e);
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  height: 100vh;
+}
+
+.stopwatch {
+  place-self: center;
+  min-width: 500px;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem 4rem;
+}
+
+.stopwatch__text {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: #70dceb;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play {
+  background-color: #4caf50;
+}
+
+.stop {
+  background-color: #733bce;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
